@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
   return (
     <section id="home" className="min-h-[100vh] flex justify-center items-start pt-5">
-      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/80 w-[95%] min-h-[88vh] py-4 rounded-xl shadow-ku">
+      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/90 w-[95%] min-h-[88vh] py-4 rounded-xl shadow-ku">
         <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }} viewport={{ once: false, amount: 0.3 }} className=" text-center text-lg font-semibold">
           The Wedding Of
         </motion.h1>

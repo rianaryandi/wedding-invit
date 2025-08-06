@@ -4,7 +4,7 @@ import { IoLocationSharp } from "react-icons/io5";
 const AkadReception = () => {
   return (
     <section id="akadReception" className="min-h-[100vh] flex justify-center items-start pt-5 font-noto">
-      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/80 w-[95%] min-h-[88vh] py-5 rounded-xl shadow-ku">
+      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/90 w-[95%] min-h-[88vh] py-5 rounded-xl shadow-ku">
         <motion.h1 initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} viewport={{ once: false, amount: 0.3 }} className="text-center text-2xl mb-6 font-semibold font-one text-rose-950 ">
           Acara Kami
         </motion.h1>
