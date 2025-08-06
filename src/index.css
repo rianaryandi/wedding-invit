@@ -6,8 +6,7 @@ html,
 body {
   font-family: "Playfair Display", serif;
   scroll-behavior: smooth;
-  background-image: url("../src/assets/img/bg/5.webp");
-
+  background-image: url("../src/assets/img/bg/3.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -27,21 +26,6 @@ body {
 }
 .font-great {
   font-family: "Great Vibes", cursive;
-}
-
-.bg-cover {
-  background-image: url("../src/assets/img/bg/5.webp");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.fixed-bg {
-  background-image: url("../src/assets/img/bg/5.webp");
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .shadow-ku {

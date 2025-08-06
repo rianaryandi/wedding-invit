@@ -75,43 +75,43 @@ const Main = () => {
               <Wishes />
               <End />
             </div>
-            <div onClick={toggleMusic} className={`fixed bottom-28 right-10 bg-rose-950 w-8 h-8 cursor-pointer rounded-full shadow-btn text-white flex justify-center items-center`}>
+            <div onClick={toggleMusic} className={`fixed bottom-28 right-5 bg-rose-950 w-9 h-9 cursor-pointer rounded-full shadow-btn text-white flex justify-center items-center`}>
               {isPlaying ? <GiLoveSong className="text-xl animate-spin" /> : <FaPlay className="text-base" />}
             </div>
             {/* bottom bar */}
             <div className="flex justify-center z-50">
-              <ul className="bg-slate-100/70 border-rose-900 border-2 rounded-xl fixed bottom-1 lg:w-[40%] w-[90%] flex gap-1 justify-evenly px-2 py-2 shadow-ku">
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+              <ul className="bg-slate-200/80 border-rose-900 border-2 rounded-xl fixed bottom-1 lg:w-[40%] w-[95%] flex gap-1 justify-evenly p-1 shadow-ku">
+                <li className={`p-1.5 rounded-md cursor-pointer bg-rose-950`}>
                   <a href="#home">
                     <IoHome className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#intro">
                     <GiSelfLove className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#akadReception">
                     <MdOutlineEventAvailable className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#gallery">
                     <IoMdPhotos className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#loveStory">
                     <GiBigDiamondRing className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#gift">
                     <FaGift className="text-3xl text-white" />
                   </a>
                 </li>
-                <li className="bg-rose-950 p-2 rounded-lg cursor-pointer">
+                <li className="bg-rose-950 p-1.5 rounded-md cursor-pointer">
                   <a href="#end">
                     <FaRegEnvelope className="text-3xl text-white" />
                   </a>
@@ -123,7 +123,7 @@ const Main = () => {
         )}
       </div>
       <ToastContainer />
-      <audio ref={audioRef} src={sounds.sound2} loop preload="auto"></audio>
+      <audio ref={audioRef} src={sounds.sound1} loop preload="auto"></audio>
     </div>
   );
 };
