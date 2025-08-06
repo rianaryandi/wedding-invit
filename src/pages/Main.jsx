@@ -58,7 +58,7 @@ const Main = () => {
 
   return (
     <div className="flex justify-center h-[100vh]">
-      <div className="lg:w-[50%] w-full relative">
+      <div className="lg:w-[50%] w-full relative bg-main overflow-scroll">
         {visible ? (
           <div>
             <Cover openInvitation={openInvitation} />
