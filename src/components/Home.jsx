@@ -24,15 +24,15 @@ const Home = () => {
   }, []);
   return (
     <section id="home" className="min-h-[100vh] flex justify-center items-start pt-5">
-      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/90 w-[95%] min-h-[88vh] py-4 rounded-xl shadow-ku">
+      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/80 w-[95%] min-h-[88vh] py-4 rounded-xl shadow-ku ">
         <motion.h1 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }} viewport={{ once: false, amount: 0.3 }} className=" text-center text-lg font-semibold">
           The Wedding Of
         </motion.h1>
         <div className=" flex justify-center mt-8">
           <motion.div
-            initial={{ scale: 1.09, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.5 }}
+            initial={{ opacity: 0, scale: 0 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8 }}
             viewport={{ once: false, amount: 0.3 }}
             className="w-[50%] h-[140px]  relative font-great font-semibold text-shadow-yellow-600 text-shadow-sm flex flex-col text-rose-950"
           >
@@ -47,7 +47,7 @@ const Home = () => {
             <p className="text-center">05 | 11 | 2025</p>
           </motion.div>
           <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} viewport={{ once: false, amount: 0.3 }} className="mx-auto">
-            <img src={images.flower1} alt="flower" className="w-36 h-36 rotate-120 animate-zoomIn" />
+            <img src={images.flower4} alt="flower" className="w-40 h-30 animate-zoomIn" />
           </motion.div>
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 0.8 }} viewport={{ once: false, amount: 0.3 }} className="text-base font-noto mb-3">
             <p className="text-center">Kepada Yth.</p>

@@ -5,7 +5,7 @@ import { images } from "../api/data";
 const Intro = () => {
   return (
     <section id="intro" className="min-h-[100vh] flex justify-center items-start pt-5 font-noto">
-      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/90 w-[95%] min-h-[88vh] py-9 rounded-xl shadow-ku">
+      <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }} viewport={{ once: false, amount: 0.3 }} className="bg-gray-100/80 w-[95%] min-h-[88vh] py-9 rounded-xl shadow-ku">
         <h5 className="text-center text-lg mb-4 font-semibold text-rose-950">Assalamu’alaikum Wr. Wb.</h5>
         <p className="text-center px-4 mb-9">Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta’ala, insyaaAllah kami akan menyelenggarakan acara pernikahan</p>
         <div className="grid grid-cols-[5fr_2fr_5fr] gap-0 px-4 relative">

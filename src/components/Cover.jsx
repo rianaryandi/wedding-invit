@@ -31,7 +31,7 @@ const Cover = ({ openInvitation }) => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           viewport={{ once: false, amount: 0.3 }}
-          className="bg-gray-100/85 w-[95%] h-[95%] py-4 rounded-xl shadow-ku overflow-hidden"
+          className="bg-gray-100/70 w-[95%] h-[95%] py-4 rounded-xl shadow-ku overflow-hidden"
         >
           <h1 className=" text-center text-lg font-semibold">The Wedding Of</h1>
           <div className=" flex justify-center mt-6">

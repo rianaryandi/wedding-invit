@@ -65,16 +65,14 @@ const Main = () => {
           </div>
         ) : (
           <div className="bg">
-            <div className="">
-              <Home />
-              <Intro />
-              <AkadReception />
-              <Gallery />
-              <LoveStory />
-              <Gift />
-              <Wishes />
-              <End />
-            </div>
+            <Home />
+            <Intro />
+            <AkadReception />
+            <Gallery />
+            <LoveStory />
+            <Gift />
+            <Wishes />
+            <End />
             <div onClick={toggleMusic} className={`fixed bottom-28 right-5 bg-rose-950 w-9 h-9 cursor-pointer rounded-full shadow-btn text-white flex justify-center items-center`}>
               {isPlaying ? <GiLoveSong className="text-xl animate-spin" /> : <FaPlay className="text-base" />}
             </div>

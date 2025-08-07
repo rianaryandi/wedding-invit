@@ -11,7 +11,7 @@ body {
 .bg-main {
   background-image: url("../src/assets/img/bg/1.gif");
   background-attachment: fixed;
-  background-size: contain;
+  background-size: fill;
   background-position: center;
   background-repeat: repeat;
 }

@@ -16,8 +16,6 @@ import img_bca from "../assets/embuh/bca.webp";
 import img_gift from "../assets/embuh/gift2.webp";
 
 import sound1 from "../assets/embuh/1.mp3";
-import sound2 from "../assets/embuh/2.m4a";
-import sound3 from "../assets/embuh/3.mp3";
 
 export const images = {
   flower1,
@@ -43,6 +41,4 @@ export const gallery = {
 
 export const sounds = {
   sound1,
-  sound2,
-  sound3,
 };
