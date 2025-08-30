@@ -9,7 +9,6 @@ import img_male from "../assets/img/gallery/male.webp";
 import gallery1 from "../assets/img/gallery/1.webp";
 import gallery2 from "../assets/img/gallery/2.webp";
 import gallery3 from "../assets/img/gallery/3.webp";
-import gallery4 from "../assets/img/gallery/4.webp";
 import gallery5 from "../assets/img/gallery/5.webp";
 import img_bni from "../assets/embuh/bni.webp";
 import img_bca from "../assets/embuh/bca.webp";
