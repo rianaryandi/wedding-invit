@@ -26,8 +26,8 @@ const AkadReception = () => {
               <h2 className="font-one text-rose-950 text-xl">Akad Nikah</h2>
               <p className="">Pukul 09.00 WIB - Selesai</p>
               <p className="text-md ">Alamat</p>
-              <p className="font-semibold text-rose-950">Masjid Agung Baiturahman</p>
-              <p className="mb-3">Jl. Jokowi dan Nomor Jalan</p>
+              <p className="font-semibold text-rose-950">Villa Maman Ciomas Dampit</p>
+              <p className="mb-3">Jl. Testing Bagus gak ?</p>
               <a href="" className="flex justify-center items-center bg-rose-950 text-slate-50 px-4 py-1 rounded-lg shadow-ku">
                 <IoLocationSharp className="mr-1" />
                 Lihat Lokasi
@@ -51,7 +51,7 @@ const AkadReception = () => {
               <h2 className="font-one text-rose-950 text-2xl">Resepsi</h2>
               <p className="">Pukul 11.00 WIB - Selesai</p>
               <p>Alamat</p>
-              <p className="font-semibold text-lg text-rose-950">Pendopo Kridha Manunggal</p>
+              <p className="font-semibold text-lg text-rose-950">Testing Bagus ga ?</p>
               <p className="mb-3">Jl. Nama Jalan dan Nomor Jalan</p>
               <a href="#" className="flex justify-center items-center bg-rose-950 text-slate-50 px-4 py-1 rounded-lg">
                 <IoLocationSharp className="mr-1" />
