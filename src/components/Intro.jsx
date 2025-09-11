@@ -15,8 +15,8 @@ const Intro = () => {
         </div>
         <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1.1 }} viewport={{ once: false, amount: 0.3 }} className="flex flex-col items-center justify-center gap-2 mt-8">
           <div className="flex flex-col items-center justify-center">
-            <p className="font-one text-rose-950 text-xl font-semibold">Romeo</p>
-            <p className="text-[15px] text-gray-900 font-noto">Putra dari Nama Bapak & Nama Ibu</p>
+            <p className="font-one text-rose-950 text-xl font-semibold">Ryan</p>
+            <p className="text-[15px] text-gray-900 font-noto">Putra dari Bpk. Nana H & Ibu Almh Neneng N</p>
           </div>
           <div className="flex items-center justify-center gap-3 my-3">
             <div className="w-12 h-px bg-rose-950"></div>
@@ -24,8 +24,8 @@ const Intro = () => {
             <div className="w-12 h-px bg-rose-950"></div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <p className="font-one text-rose-950 text-xl font-semibold">Juliet</p>
-            <p className="text-[15px] text-gray-900 font-noto">Putri dari Nama Bapak & Nama Ibu</p>
+            <p className="font-one text-rose-950 text-xl font-semibold">Afika</p>
+            <p className="text-[15px] text-gray-900 font-noto">Putri dari Bpk. Yulianto & Ibu Yuliani</p>
           </div>
         </motion.div>
       </motion.div>
