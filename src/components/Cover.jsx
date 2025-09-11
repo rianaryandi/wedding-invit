@@ -36,9 +36,9 @@ const Cover = ({ openInvitation }) => {
           <h1 className=" text-center text-lg font-semibold">The Wedding Of</h1>
           <div className=" flex justify-center mt-6">
             <div className="lg:w-[30%] w-[38%] h-[130px] text-shadow-yellow-600 text-shadow-sm relative font-great font-semibold flex flex-col text-rose-950 animate-zoomIn">
-              <p className="text-5xl absolute left-0">Romeo</p>
+              <p className="text-5xl absolute left-0">Ryan Aryandi</p>
               <p className="text-2xl absolute top-2/5 left-1/2">&</p>
-              <p className="text-5xl absolute right-0 bottom-0">Juliete</p>
+              <p className="text-5xl absolute right-0 bottom-0">Afika Maylia Dyah Kinanti</p>
             </div>
           </div>
           <div className="w-full flex flex-col justify-center mt-8">
