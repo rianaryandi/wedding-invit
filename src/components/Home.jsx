@@ -36,9 +36,9 @@ const Home = () => {
             viewport={{ once: false, amount: 0.3 }}
             className="w-[50%] h-[140px]  relative font-great font-semibold text-shadow-yellow-600 text-shadow-sm flex flex-col text-rose-950"
           >
-            <p className="text-5xl absolute left-3">Romeo</p>
+            <p className="text-5xl absolute left-3">Ryan</p>
             <p className="text-2xl absolute top-2/5 left-1/2">&</p>
-            <p className="text-5xl absolute right-3 bottom-0">Juliete</p>
+            <p className="text-5xl absolute right-3 bottom-0">Afika</p>
           </motion.div>
         </div>
         <div className="w-full flex flex-col justify-center mt-8">
